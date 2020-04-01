@@ -1,2 +1,2 @@
 # HEY
-You can only download index.html and main.css
+You can only use index.html and main.css
