@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pl">
+        <meta charset="utf-8">
+        <title>JS Calc</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+        <script src="calc.js" async></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body onload="insert()";>
+        <main>
+            <form name="form">
+                <input class="textview" name="textview">
+            </form>
+            <table>
+                <tr>
+                    <td><input class="button" type="button" value="C"></td>
+                    <td><input class="button" type="button" value="<"></td>
+                    <td><input class="button" type="button" value="/"></td>
+                    <td><input class="button" type="button" value="x"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="7"></td>
+                    <td><input class="button" type="button" value="8"></td>
+                    <td><input class="button" type="button" value="9"></td>
+                    <td><input class="button" type="button" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="4"></td>
+                    <td><input class="button" type="button" value="5"></td>
+                    <td><input class="button" type="button" value="6"></td>
+                    <td><input class="button" type="button" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input onclick="insert(1)"; class="button" type="button" value="1"></td>
+                    <td><input onclick="insert(2)"; class="button" type="button" value="2"></td>
+                    <td><input class="button" type="button" value="3"></td>
+                    <td><input class="button" type="button" value="="></td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
