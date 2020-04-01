@@ -3,19 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(right, red,orange);
-}
 .button{
     width: 50px;
     height: 50px;
     font-size: 24px;
-    margin: 2px;
     cursor: pointer;
+    margin: 2px;
 }
 .textview{
     width: 217px;
     margin: 5px;
     font-size: 25px;
     padding: 5px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-49%) translateY(-49%);
+}
+.bg{
+    background: linear-gradient(right, red,orange);
+    height: 100vh;
 }
