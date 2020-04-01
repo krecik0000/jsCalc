@@ -8,9 +8,20 @@
 .button {
   width: 50px;
   height: 50px;
-  font-size: 24px;
+  font-size: 25px;
   cursor: pointer;
   margin: 2px;
+  border: 0;
+  background-color: #37005c;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #37007a;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .textview {
@@ -18,19 +29,21 @@
   margin: 5px;
   font-size: 25px;
   padding: 5px;
+  border: 0;
+  color: #37005c;
 }
 
 .main {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-49%) translateY(-49%);
-          transform: translateX(-49%) translateY(-49%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .bg {
-  background: -webkit-gradient(linear, right top, left top, from(red), to(orange));
-  background: linear-gradient(right, red, orange);
+  background-image: -webkit-gradient(linear, left top, right top, from(#42038a), color-stop(#5f05b3), to(#a200ff));
+  background-image: linear-gradient(to right, #42038a, #5f05b3, #a200ff);
   height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,23 +6,34 @@
 .button{
     width: 50px;
     height: 50px;
-    font-size: 24px;
+    font-size: 25px;
     cursor: pointer;
     margin: 2px;
+    border: 0;
+    background-color: #37005c;
+    color: #fff;
+    &:hover{
+        background-color: #37007a;
+    }
+    &:focus{
+        outline: none;
+    }
 }
 .textview{
     width: 217px;
     margin: 5px;
     font-size: 25px;
     padding: 5px;
+    border: 0;
+    color: #37005c;
 }
 .main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-49%) translateY(-49%);
+    transform: translateX(-50%) translateY(-50%);
 }
 .bg{
-    background: linear-gradient(right, red,orange);
+    background-image: linear-gradient(to right,rgb(66, 3, 138),rgb(95, 5, 179),rgb(162, 0, 255));
     height: 100vh;
 }
